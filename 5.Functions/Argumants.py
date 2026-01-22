@@ -4,4 +4,3 @@ def greet(first_name, last_name):
 
 
 greet("Mosh", "Hemdani")
-greet("ABc", "ABe")

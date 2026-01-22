@@ -16,4 +16,4 @@ def multiplication(number, by):
     return number * by
 
 
-print(multiplication(12, 12))
+print(multiplication(12, by=12))
