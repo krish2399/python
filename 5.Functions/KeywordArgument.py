@@ -12,9 +12,8 @@
 
 # print(increment(32, 43))
 
-
-def multiplaction(number, by):
+def multiplication(number, by):
     return number * by
 
 
-print(multiplaction(24, 23))
+print(multiplication(12, 12))
