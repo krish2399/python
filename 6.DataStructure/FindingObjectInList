@@ -1,0 +1,16 @@
+letters = ["a", "b", "c"]
+print(letters.count("d"))
+if "d" in letters:
+    print(letters.index("d"))
+
+
+item = ["food", "cloth"]
+
+print(item.index("cloth"))
+print(item.count("cloth"))
+
+if "crank" in item:
+    print(item.index("crank"))
+
+else:
+    print("crank in not in item")
