@@ -37,4 +37,4 @@ def bike_price(bike):
 # print(bike)
 
 
-print(sorted(bike, key=bike_price, reverse=True))
+print(sorted(bike, key=bike_price))

@@ -1,21 +1,19 @@
-""" items = [
-    ("product1", 400),
-    ("product2", 700),
-    ("product3", 900),
-    ("product4", 600)
+item = [
+    ("product1", 10),
+    ("product2", 9),
+    ("product3", 12)
 ]
-items.sort(key= lambda item: item[1])
 
-print(items)
- """
+item.sort(key=lambda item: item[1])
+print(item)
 
 
 bike = [
-    ("bullet", 120000),
-    ("splendor", 45000),
-    ("GT650", 500000)
+    ("bullet", 1_20_000),
+    ("splendor", 1_00_000),
+    ("GT650", 5_00_000)
 ]
-# bike.sort(key=lambda bike: bike[1], reverse=True)
-# print(bike)
+print(bike[0])
 
-print(sorted(bike, key=lambda bike: bike[1]))
+""" bike.sort(key=lambda bike: bike[1])
+print(bike) """
