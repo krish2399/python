@@ -13,7 +13,7 @@ bike = [
     ("splendor", 1_00_000),
     ("GT650", 5_00_000)
 ]
-print(bike[0])
 
-""" bike.sort(key=lambda bike: bike[1])
-print(bike) """
+
+bike.sort(key=lambda bike: bike[1])
+print(bike)
