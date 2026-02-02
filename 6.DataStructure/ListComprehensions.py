@@ -5,10 +5,10 @@ items = [
 ]
 
 # prices = list(map(lambda item: item[1], items))
-prices = [item[1] for item in items]
-print(prices)
+prieces = [item[1] for item in items]
+print(prieces)
 
 
 # filtered = list(filter(lambda item: item[1] <= 10, items))
-filtered = [item[1] for item in items if item[1] <= 10]
-print(filtered)
+filterd = [item for item in items if item[1] <= 10]
+print(filterd)
