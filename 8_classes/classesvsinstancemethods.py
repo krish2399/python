@@ -40,7 +40,7 @@ class MyCars:
 
     @classmethod
     def valuecar(cls):
-        return cls("Scoripo Classic S11", "BMW M5 Compititon ", "Defender Octa")
+        return cls("Scoripo Classic S11", "BMW M5 Compeititon ", "Defender Octa")
 
     def showcar(self):
         print(
