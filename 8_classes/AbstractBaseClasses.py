@@ -4,7 +4,6 @@ from abc import ABC, abstractmethod
 class InvaildOperationError(Exception):
     pass
 
-
 class Stream(ABC):
     def __init__(self):
         self.opened = False
@@ -20,7 +19,7 @@ class Stream(ABC):
 
     @abstractmethod
     def read(self):
-        pass
+        print("reading the file")
 
 
 class FileStream(Stream):
@@ -30,7 +29,7 @@ class FileStream(Stream):
 
 class NetworkStream(Stream):
     def read(self):
-        print("Reading data form a Netowork")
+        print("Reading data from a Netowork")
 
 
 class MemoryStream(Stream):
@@ -38,5 +37,7 @@ class MemoryStream(Stream):
         print("Reading data from memory stream")
 
 
-stream = MemoryStream()
-stream.open()
+stream = FileStream()
+# stream.open()
+# stream.read()
+stream.close()
